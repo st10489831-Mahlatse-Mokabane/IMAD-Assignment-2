@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".MainEvaluate">
+
+    <!-- TextView for evaluation -->
+    <TextView
+        android:id="@+id/evaluationTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Evaluation Report"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- TextView for question 1 -->
+    <TextView
+        android:id="@+id/question1Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="The Great Pyramid of Giza was built by the Babylonians"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <!-- TextView for answer 1 -->
+    <TextView
+        android:id="@+id/answer1Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="It was built by the ancient Egyptions."
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <!-- TextView for question 2 -->
+    <TextView
+        android:id="@+id/question2Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="The ancient Egyptians mummified their dead to preserve for the afterlife"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <!-- TextView for answer 2 -->
+    <TextView
+        android:id="@+id/answer2Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="The ancient Egyptians mummified their dead to preserve for the afterlife"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <!-- TextView for question 3 -->
+    <TextView
+        android:id="@+id/question3Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="The ancient Greeks were known for their expertise in shipbuilding"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <!-- TextView for answer 3 -->
+    <TextView
+        android:id="@+id/answer3Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="The ancient Greeks were known for their expertise in shipbuilding"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <!-- TextView for question 4 -->
+    <TextView
+        android:id="@+id/question4Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="The ancient city of Pompeii was destroyed by a tsunami"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <!-- TextView for answer 4 -->
+    <TextView
+        android:id="@+id/answer4Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Destroyed by the eruption of Mount Vesuvius."
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <!-- TextView for question 5 -->
+    <TextView
+        android:id="@+id/question5Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="The ancient Romans built the Great Wall of China"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <!-- TextView for answer 5 -->
+    <TextView
+        android:id="@+id/answer5Txt"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="The Chinese built the Great wall of China."
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- Button to restart the app -->
+        <Button
+            android:id="@+id/restartBtn"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:text="Start afresh"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/Teagreen"/>
+
+        <!-- Button to exit the app -->
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Exit"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/Teagreen"/>
+    </LinearLayout>
+</LinearLayout>
