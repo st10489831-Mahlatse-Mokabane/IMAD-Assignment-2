@@ -21,7 +21,7 @@ THE PURPOSE OF THE APP:
 THE DESIGN OF THE APP:
 <li>The design aims to provide a fun, instructive, and simple experience that enables users to study and assess their historical knowledge.  The app's design blends visual appeal, individualized advancement, and interactive learning to make history approachable and entertaining for users of all ages.</li>
 <li>The app has a background image on all the interface screen to make it more engaging and fun.</li>
-<li>The app has eight screens four of which are part of tghe user interface and the other four are the kotlin screens which is the funcinabilty of the app.</li>
+<li>The app has eight screens four of which are part of the user interface and the other four are the kotlin screens which is the funcinabilty of the app.</li>
 <li>The first screen which is the welcome screen has two buttons</li>
 <li>The quiz screen has two buttons which are placed horizontaly and one more button played below the two buttons.</li>
 <li>The pints screen has two buttons as well, which are placed below one another.</li>
@@ -52,4 +52,10 @@ Save and close your project on andriod studio, then right click the program you 
 <li><b>git pull origin main --allow-unrelated-histories :</b> This pulls changes from the remote main branch.</li>
 <li><b>git push origin main :</b> This pushes the local branch to the remote repository.</li>
 <br>
-SCREENSHOTS OF MY APP:
+SREENSHOTS OF MY APP:
+![HAW1-2025 (1) - lab-f3bb02a4-0730-4e14-b9d6-2c527a5e01d3 westeurope cloudapp azure com_7066 - Remote Desktop Connection 2025_05_20 17_27_27](https://github.com/user-attachments/assets/ad8397b6-322a-4fc6-837b-1d0ac1a9b929)
+![HAW1-2025 (1) - lab-f3bb02a4-0730-4e14-b9d6-2c527a5e01d3 westeurope cloudapp azure com_7066 - Remote Desktop Connection 2025_05_20 17_27_47](https://github.com/user-a![HAW1-2025 (1) - lab-f3bb02a4-0730-4e14-b9d6-2c527a5e01d3 westeurope cloudapp azure com_7066 - Remote Desktop Connection 2025_05_20 17_28_23](https://github.com/user-attachments/assets/fead8864-9a22-44a1-94e6-bfb4371c1844)
+ttachments/assets/62f![HAW1-2025 (1) - lab-f3bb02a4-0730-4e14-b9d6-2c527a5e01d3 westeurope cloudapp azure com_7066 - Remote Desktop Connection 2025_05_20 17_38_10](https://github.com/user-attachments/assets/406a720c-2325-46e7-91c6-85d4b38a218d)
+e07d5-b7a7-4cd6-a047-40ed30ea8542)
+
+
