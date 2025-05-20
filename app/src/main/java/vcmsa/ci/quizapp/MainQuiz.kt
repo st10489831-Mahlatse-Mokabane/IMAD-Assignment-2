@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainQuiz : AppCompatActivity() {
 
+    // Initialising all elements
     private lateinit var messageTxt: TextView
     private lateinit var questionsTxt: TextView
     private lateinit var trueBtn: Button
@@ -19,6 +20,11 @@ class MainQuiz : AppCompatActivity() {
     private lateinit var nextBtn: Button
 
     companion object {
+
+        //Code attribution for array
+        //This method was taken from the
+        //IMAD5112 Module Manual 2025
+        //Page 76
         val questions = arrayOf(
             "The Great Pyramid of Giza was built by the Babylonians",
             "The ancient Egyptians mummified their dead to preserve for the afterlife",
@@ -40,7 +46,12 @@ class MainQuiz : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_quiz)
 
-        // Initialising all elements
+        //Code attribution for linking elements by their id
+        //This method was taken from the
+        //IMAD5112 Module Manual 2025
+        //Page 41
+
+        // Linking elements by their ID'S
         messageTxt = findViewById(R.id.messageTxt)
         questionsTxt = findViewById(R.id.questionsTxt)
         trueBtn = findViewById(R.id.trueBtn)
@@ -58,12 +69,23 @@ class MainQuiz : AppCompatActivity() {
         // Create a click listener for next button
         nextBtn.setOnClickListener {
             currentQuestionsIndex++
+
+            //Code attribution for IF, ELSE statements
+            //This method was taken from the
+            //IMAD5112 Module Manual 2025
+            //Page 49
             if (currentQuestionsIndex < questions.size) {
                 displayQuestion()
                 outputTxt.text = "" // Clears the output
                 trueBtn.isEnabled = true //Enables buttons
                 falseBtn.isEnabled = true
             } else {
+
+                //Code attribution to start activity
+                //This method was taken from the
+                //IMAD5112 Module Manual 2025
+                //Page 64
+
                 // Goes to the MainPoints activity
                 val intent = Intent(this,MainPoints::class.java)
                 intent.putExtra("points", points)

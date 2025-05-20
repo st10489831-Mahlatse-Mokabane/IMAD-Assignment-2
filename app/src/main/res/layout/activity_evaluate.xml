@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="The Great Pyramid of Giza was built by the Babylonians"
+        android:text="Q1: The Great Pyramid of Giza was built by the Babylonians"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold" />
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="It was built by the ancient Egyptions."
+        android:text="A1: False, It was built by the ancient Egyptions."
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="italic" />
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="The ancient Egyptians mummified their dead to preserve for the afterlife"
+        android:text="Q2: The ancient Egyptians mummified their dead to preserve for the afterlife"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold" />
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="The ancient Egyptians mummified their dead to preserve for the afterlife"
+        android:text="A2: True"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="italic" />
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="The ancient Greeks were known for their expertise in shipbuilding"
+        android:text="Q3: The ancient Greeks were known for their expertise in shipbuilding"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold" />
@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="The ancient Greeks were known for their expertise in shipbuilding"
+        android:text="A3: True"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="italic" />
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="The ancient city of Pompeii was destroyed by a tsunami"
+        android:text="Q4: The ancient city of Pompeii was destroyed by a tsunami"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold" />
@@ -112,7 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Destroyed by the eruption of Mount Vesuvius."
+        android:text="A4: False, Destroyed by the eruption of Mount Vesuvius."
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="italic" />
@@ -124,7 +124,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="The ancient Romans built the Great Wall of China"
+        android:text="Q5: The ancient Romans built the Great Wall of China"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold" />
@@ -133,12 +133,12 @@
     <TextView
         android:id="@+id/answer5Txt"
         android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="The Chinese built the Great wall of China."
-        android:textSize="20sp"
+        android:text="A5: False, The Chinese built the Great wall of China."
         android:textColor="@color/white"
+        android:textSize="20sp"
         android:textStyle="italic" />
 
     <LinearLayout
@@ -154,8 +154,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="20dp"
             android:text="Start afresh"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/Teagreen"/>
+            android:textColor="@color/black" />
 
         <!-- Button to exit the app -->
         <Button
@@ -165,7 +164,6 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:text="Exit"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/Teagreen"/>
+            android:textColor="@color/black" />
     </LinearLayout>
 </LinearLayout>

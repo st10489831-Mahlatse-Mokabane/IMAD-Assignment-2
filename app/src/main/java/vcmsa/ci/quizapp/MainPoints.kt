@@ -14,6 +14,12 @@ class MainPoints : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_points)
 
+        //Code attribution for linking elements by their id
+        //This method was taken from the
+        //IMAD5112 Module Manual 2025
+        //Page 41
+
+        // Linking elements by their ID'S
         val messageTxt = findViewById<TextView>(R.id.messageTxt)
         val totalPointsTxt = findViewById<TextView>(R.id.totalPointsTxt)
         val observeTxt = findViewById<TextView>(R.id.observeTxt)
@@ -34,6 +40,12 @@ class MainPoints : AppCompatActivity() {
 
         // Create a click listener for the evaluate button
         evaluateBtn.setOnClickListener{
+
+            //Code attribution to start activity
+            //This method was taken from the
+            //IMAD5112 Module Manual 2025
+            //Page 64
+
             // Starts the evaluate activity and pass the questions and answers
             val intent = Intent(this, MainEvaluate::class.java)
             intent.putExtra("questions", MainQuiz.questions)

@@ -44,7 +44,6 @@
         android:text="Let's go"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:backgroundTint="@color/Teagreen"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"/>
 
@@ -58,7 +57,6 @@
         android:text="Stop"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:backgroundTint="@color/Teagreen"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"/>
 </LinearLayout>
