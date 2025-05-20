@@ -10,6 +10,7 @@ This README file includes:
 <b>Link to my youtube video</b>
 
 <b>Link to my repository</b>
+https://github.com/st10489831-Mahlatse-Mokabane/IMAD-Assignment-2.git
 
 THE PURPOSE OF THE APP:
 <li><b>Educational Engagement:</b> To turn factual material into interesting quizzes that support maintaining data, therefore making learning history more interactive and fun.</li>
