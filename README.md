@@ -20,5 +20,18 @@ THE PURPOSE OF THE APP:
 <li><b>Provide a Low-Stress Learning Environment:</b> Without the stress of official tests, users can study history at their own speed, which may increase their own motivation and enjoyment.</li>
 <br>
 THE DESIGN OF THE APP:
-<br>
+
 <li>The design aims to provide a fun, instructive, and simple experience that enables users to study and assess their historical knowledge.  The app's design blends visual appeal, individualized advancement, and interactive learning to make history approachable and entertaining for users of all ages.</li>
+<br>
+HOW THE APP WORKS:
+
+<li>Firstly open the application you will see the welcome screen which has the welcome message and app dresciption and two buttons which are "lets go" and "stop"  buttons.</li>
+<li>Then you will click the "lets go" button and it will take you to a second screen which is the Quiz Screen.</li>
+<li>The first question will be displayed on the quiz sreen then you click the either one of the button "true" or "false".</li>
+<li>The buttons will be disabled so that you wont be able to click any of them, and a message will display whether your answer is valid or invalid.</li>
+<li>Then you will click on the "next" button which will display a new questions until all questions have been answered.</li>
+<li>After completing your questions, you will be directed to the poins screen which will display how many ansers you got correct and a feedback message.</li>
+<li>If you want to see what the correct answers was, you click on the "evaluate" button and that will redirect you to the evaluation Screen which will display all your questions and the answers.</li>
+<li>The evaluation screen will have all your questions and answers and two buttons which are "start afresh" if you want to retry the quiz and a "exit" button the end the quiz.</li>
+<br>
+THE UTILIZATION OF GITHUB AND GITHUB ACTIONSS AND SCREENSHOTS OF MY APP:
