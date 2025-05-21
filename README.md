@@ -8,6 +8,7 @@ This README file includes:
 <li>The utilization of GitHub and GitHub Actions and screenshots of my app.</li>
 <br>
 <b>Link to my YouTube video</b>
+https://youtu.be/ag4lL_cvOiA
 
 <b>Link to my repository</b>
 https://github.com/st10489831-Mahlatse-Mokabane/IMAD-Assignment-2.git
